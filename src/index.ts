@@ -1,7 +1,9 @@
 import { Context, Schema } from 'koishi'
 import { Rcon } from "rcon-client"
 
-export const name = 'jbmc-bind'
+export const name = 'jbmc-bind';
+
+export const inject = ['database'];
 
 export interface Config {
     rconHost: string
