@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-jbmc-bind",
+  "description": "给月之谷服务器使用的群员绑定 Minecraft ID 自动加入白名单功能。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.3"
+  }
+}
